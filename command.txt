@@ -1,0 +1,4 @@
+>> g++ -pg -o main main.cpp
+>> ./main
+>> gprof main gmon.out > analysis.txt
+>> gprof a.out gmon.out | gpfof2dot | dot -Tpng -o output.png
